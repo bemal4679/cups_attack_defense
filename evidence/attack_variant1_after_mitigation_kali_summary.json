@@ -1,0 +1,8 @@
+{
+  "variant": "basic",
+  "target_ip": "10.13.37.10",
+  "attacker_ip": "10.13.37.1",
+  "packets_sent": 1,
+  "callback_observed": false,
+  "callback_events": []
+}

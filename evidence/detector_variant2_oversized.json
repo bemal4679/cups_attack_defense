@@ -1,0 +1,57 @@
+{
+  "stats": {
+    "packets_seen": 25,
+    "browse_packets": 1,
+    "malformed_packet": 1,
+    "ipp_requests": 4,
+    "suspicious_ipp_callback": 4
+  },
+  "alert_count": 5,
+  "alerts": [
+    {
+      "timestamp": 1794750364.464377,
+      "category": "malformed_packet",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "UDP/631 payload resembles a browse announcement but fails strict field parsing: b'0 3 ipp://10.13.37.66:16312/printers/EVIL-PRINTER \"Attacker Controlled\" \"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+    },
+    {
+      "timestamp": 1794750364.475484,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.66",
+      "dst_port": 16312,
+      "detail": "IPP Get-Printer-Attributes (request-id=46) client=10.13.37.10 printer=10.13.37.66:16312"
+    },
+    {
+      "timestamp": 1794750364.482659,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 59586,
+      "detail": "IPP 0x0000 (request-id=46) client=10.13.37.10 printer=10.13.37.66:16312"
+    },
+    {
+      "timestamp": 1794750364.483458,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.66",
+      "dst_port": 16312,
+      "detail": "IPP Get-Printer-Attributes (request-id=47) client=10.13.37.10 printer=10.13.37.66:16312"
+    },
+    {
+      "timestamp": 1794750364.493712,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 59594,
+      "detail": "IPP 0x0000 (request-id=47) client=10.13.37.10 printer=10.13.37.66:16312"
+    }
+  ]
+}

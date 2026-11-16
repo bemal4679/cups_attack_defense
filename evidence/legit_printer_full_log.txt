@@ -1,0 +1,39 @@
+cups_legit_printer  | 2026-11-15 13:44:29,748 [legit-printer] IPP TCP listener up on 0.0.0.0:631
+cups_legit_printer  | 2026-11-15 13:44:29,748 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:44:40,734 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:44:50,736 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:00,739 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:11,711 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:21,715 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:27,083 [legit-printer] IPP request from ('10.13.37.10', 34668): <IPP Get-Printer-Attributes req_id=18 version=2.0 178B>
+cups_legit_printer  | 2026-11-15 13:45:27,088 [legit-printer] IPP request from ('10.13.37.10', 34676): <IPP Get-Printer-Attributes req_id=19 version=2.0 170B>
+cups_legit_printer  | 2026-11-15 13:45:31,717 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:42,691 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:45:52,698 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:02,700 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:13,651 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:23,652 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:33,654 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:44,625 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:46:54,626 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:04,638 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:15,623 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:25,625 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:35,626 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:46,612 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:47:56,614 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:06,615 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:17,580 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:27,581 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:37,582 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:48,544 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:48:58,544 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:49:08,546 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:49:19,523 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:49:29,526 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:49:39,529 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:49:44,827 [legit-printer] IPP request from ('10.13.37.10', 38674): <IPP Get-Printer-Attributes req_id=26 version=2.0 178B>
+cups_legit_printer  | 2026-11-15 13:49:44,828 [legit-printer] IPP request from ('10.13.37.10', 38678): <IPP Get-Printer-Attributes req_id=27 version=2.0 170B>
+cups_legit_printer  | 2026-11-15 13:49:50,509 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:50:00,512 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit
+cups_legit_printer  | 2026-11-15 13:50:10,513 [legit-printer] sent legit browse announcement to 10.13.37.10:631 -> ipp://10.13.37.20:631/printers/legit

@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "packets_seen": 3,
+    "browse_packets": 3,
+    "allowlisted_advertisements": 2,
+    "unauthorized_advertisement": 1
+  },
+  "alert_count": 1,
+  "alerts": [
+    {
+      "timestamp": 1794847851.824923,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16330/printers/AFTER-MITIGATION-KALI"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750418.123917,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750418.12639,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16314,IPP Get-Printer-Attributes (request-id=127) client=10.13.37.10 printer=10.13.37.66:16314
+1794750418.131807,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,41684,IPP 0x0000 (request-id=127) client=10.13.37.10 printer=10.13.37.66:16314
+1794750418.132447,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16314,IPP Get-Printer-Attributes (request-id=128) client=10.13.37.10 printer=10.13.37.66:16314
+1794750418.145741,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,41694,IPP 0x0000 (request-id=128) client=10.13.37.10 printer=10.13.37.66:16314
+1794750418.361148,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750418.604981,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750418.838407,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750419.094464,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750419.333416,discovery_flood,medium,10.13.37.66,10.13.37.10,631,6 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750419.333416,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750419.582515,discovery_flood,medium,10.13.37.66,10.13.37.10,631,7 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750419.582515,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750419.837426,discovery_flood,medium,10.13.37.66,10.13.37.10,631,8 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750419.837426,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750420.06085,discovery_flood,medium,10.13.37.66,10.13.37.10,631,9 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750420.06085,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750420.3059,discovery_flood,medium,10.13.37.66,10.13.37.10,631,10 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750420.3059,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750420.543836,discovery_flood,medium,10.13.37.66,10.13.37.10,631,11 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750420.543836,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750420.777419,discovery_flood,medium,10.13.37.66,10.13.37.10,631,12 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750420.777419,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750421.04835,discovery_flood,medium,10.13.37.66,10.13.37.10,631,13 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750421.04835,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750421.281109,discovery_flood,medium,10.13.37.66,10.13.37.10,631,14 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750421.281109,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750421.533021,discovery_flood,medium,10.13.37.66,10.13.37.10,631,15 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750421.533021,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750421.76603,discovery_flood,medium,10.13.37.66,10.13.37.10,631,16 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750421.76603,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750422.014395,discovery_flood,medium,10.13.37.66,10.13.37.10,631,17 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750422.014395,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750422.254284,discovery_flood,medium,10.13.37.66,10.13.37.10,631,18 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750422.254284,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750422.495605,discovery_flood,medium,10.13.37.66,10.13.37.10,631,19 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750422.495605,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"
+1794750422.764508,discovery_flood,medium,10.13.37.66,10.13.37.10,631,20 browse announcements from 10.13.37.66 within 30s window (threshold 5)
+1794750422.764508,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16314/printers/EVIL-PRINTER"

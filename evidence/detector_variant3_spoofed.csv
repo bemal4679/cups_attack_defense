@@ -1,0 +1,5 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750405.723698,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16313,IPP Get-Printer-Attributes (request-id=98) client=10.13.37.10 printer=10.13.37.66:16313
+1794750405.728875,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,37894,IPP 0x0000 (request-id=98) client=10.13.37.10 printer=10.13.37.66:16313
+1794750405.729445,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16313,IPP Get-Printer-Attributes (request-id=99) client=10.13.37.10 printer=10.13.37.66:16313
+1794750405.734498,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,37902,IPP 0x0000 (request-id=99) client=10.13.37.10 printer=10.13.37.66:16313

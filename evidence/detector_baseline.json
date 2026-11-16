@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "packets_seen": 26,
+    "browse_packets": 2,
+    "allowlisted_advertisements": 2,
+    "ipp_requests": 4,
+    "allowlisted_ipp": 4
+  },
+  "alert_count": 0,
+  "alerts": []
+}

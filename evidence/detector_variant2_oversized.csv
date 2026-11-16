@@ -1,0 +1,6 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750364.464377,malformed_packet,high,10.13.37.66,10.13.37.10,631,"UDP/631 payload resembles a browse announcement but fails strict field parsing: b'0 3 ipp://10.13.37.66:16312/printers/EVIL-PRINTER ""Attacker Controlled"" ""AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+1794750364.475484,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16312,IPP Get-Printer-Attributes (request-id=46) client=10.13.37.10 printer=10.13.37.66:16312
+1794750364.482659,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,59586,IPP 0x0000 (request-id=46) client=10.13.37.10 printer=10.13.37.66:16312
+1794750364.483458,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16312,IPP Get-Printer-Attributes (request-id=47) client=10.13.37.10 printer=10.13.37.66:16312
+1794750364.493712,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,59594,IPP 0x0000 (request-id=47) client=10.13.37.10 printer=10.13.37.66:16312

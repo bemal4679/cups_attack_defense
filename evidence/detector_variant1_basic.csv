@@ -1,0 +1,6 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750340.718895,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16311/printers/EVIL-PRINTER"
+1794750340.72617,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16311,IPP Get-Printer-Attributes (request-id=29) client=10.13.37.10 printer=10.13.37.66:16311
+1794750340.745522,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,37212,IPP 0x0000 (request-id=29) client=10.13.37.10 printer=10.13.37.66:16311
+1794750340.74997,suspicious_ipp_callback,high,10.13.37.10,10.13.37.66,16311,IPP Get-Printer-Attributes (request-id=30) client=10.13.37.10 printer=10.13.37.66:16311
+1794750340.754926,suspicious_ipp_callback,high,10.13.37.66,10.13.37.10,37226,IPP 0x0000 (request-id=30) client=10.13.37.10 printer=10.13.37.66:16311

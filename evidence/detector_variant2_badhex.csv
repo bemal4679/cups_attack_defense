@@ -1,0 +1,2 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750371.888947,malformed_packet,high,10.13.37.66,10.13.37.10,631,"UDP/631 payload resembles a browse announcement but fails strict field parsing: b'ZZZZ ---- ipp://10.13.37.66:16312/printers/EVIL-PRINTER ""Attacker Controlled"" ""Totally Legit Printer""'"

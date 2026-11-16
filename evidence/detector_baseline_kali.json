@@ -1,0 +1,9 @@
+{
+  "stats": {
+    "packets_seen": 1,
+    "browse_packets": 1,
+    "allowlisted_advertisements": 1
+  },
+  "alert_count": 0,
+  "alerts": []
+}

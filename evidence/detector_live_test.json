@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "packets_seen": 1,
+    "browse_packets": 1,
+    "unauthorized_advertisement": 1
+  },
+  "alert_count": 1,
+  "alerts": [
+    {
+      "timestamp": 1794750782.9766362,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16399/printers/EVIL-PRINTER"
+    }
+  ]
+}

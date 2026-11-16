@@ -1,0 +1,45 @@
+# A closed test network for the class project. Nothing here is open to
+# the outside, only our own tools talk on this network.
+services:
+  victim:
+    image: vulhub/cups-browsed:2.0.1
+    container_name: cups_victim
+    networks:
+      cupslab:
+        ipv4_address: 10.13.37.10
+
+  legit_printer:
+    build:
+      context: ..
+      dockerfile: lab/legit_printer/Dockerfile
+    container_name: cups_legit_printer
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    networks:
+      cupslab:
+        ipv4_address: 10.13.37.20
+    volumes:
+      - ../pcap_files:/lab/pcap_files
+
+  attacker:
+    build:
+      context: ..
+      dockerfile: lab/attacker/Dockerfile
+    container_name: cups_attacker
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    networks:
+      cupslab:
+        ipv4_address: 10.13.37.66
+    volumes:
+      - ../:/lab
+    working_dir: /lab
+
+networks:
+  cupslab:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.13.37.0/24

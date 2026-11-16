@@ -1,0 +1,25 @@
+{
+  "variant": "basic",
+  "target_ip": "10.13.37.10",
+  "attacker_ip": "10.13.37.66",
+  "packets_sent": 1,
+  "callback_observed": true,
+  "callback_events": [
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 37212,
+      "timestamp": 1794750340.7450385,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 29,
+      "raw_len": 187
+    },
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 37226,
+      "timestamp": 1794750340.754722,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 30,
+      "raw_len": 179
+    }
+  ]
+}

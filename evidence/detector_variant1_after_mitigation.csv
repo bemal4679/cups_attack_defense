@@ -1,0 +1,2 @@
+timestamp,category,severity,src_ip,dst_ip,dst_port,detail
+1794750586.813564,unauthorized_advertisement,high,10.13.37.66,10.13.37.10,631,"unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.66:16320/printers/AFTER-MITIGATION"

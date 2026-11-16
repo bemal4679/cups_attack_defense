@@ -1,0 +1,25 @@
+{
+  "variant": "flood",
+  "target_ip": "10.13.37.10",
+  "attacker_ip": "10.13.37.66",
+  "packets_sent": 20,
+  "callback_observed": true,
+  "callback_events": [
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 41684,
+      "timestamp": 1794750418.1315937,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 127,
+      "raw_len": 187
+    },
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 41694,
+      "timestamp": 1794750418.1455636,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 128,
+      "raw_len": 179
+    }
+  ]
+}

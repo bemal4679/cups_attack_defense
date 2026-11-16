@@ -1,0 +1,48 @@
+{
+  "stats": {
+    "packets_seen": 25,
+    "browse_packets": 1,
+    "allowlisted_advertisements": 1,
+    "ipp_requests": 4,
+    "suspicious_ipp_callback": 4
+  },
+  "alert_count": 4,
+  "alerts": [
+    {
+      "timestamp": 1794750405.723698,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.66",
+      "dst_port": 16313,
+      "detail": "IPP Get-Printer-Attributes (request-id=98) client=10.13.37.10 printer=10.13.37.66:16313"
+    },
+    {
+      "timestamp": 1794750405.728875,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 37894,
+      "detail": "IPP 0x0000 (request-id=98) client=10.13.37.10 printer=10.13.37.66:16313"
+    },
+    {
+      "timestamp": 1794750405.729445,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.66",
+      "dst_port": 16313,
+      "detail": "IPP Get-Printer-Attributes (request-id=99) client=10.13.37.10 printer=10.13.37.66:16313"
+    },
+    {
+      "timestamp": 1794750405.734498,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.66",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 37902,
+      "detail": "IPP 0x0000 (request-id=99) client=10.13.37.10 printer=10.13.37.66:16313"
+    }
+  ]
+}

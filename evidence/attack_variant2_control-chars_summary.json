@@ -1,0 +1,25 @@
+{
+  "variant": "malformed",
+  "target_ip": "10.13.37.10",
+  "attacker_ip": "10.13.37.66",
+  "packets_sent": 1,
+  "callback_observed": true,
+  "callback_events": [
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 57532,
+      "timestamp": 1794750380.6453123,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 62,
+      "raw_len": 187
+    },
+    {
+      "peer_ip": "10.13.37.10",
+      "peer_port": 57540,
+      "timestamp": 1794750380.6490624,
+      "operation": "Get-Printer-Attributes",
+      "request_id": 63,
+      "raw_len": 179
+    }
+  ]
+}

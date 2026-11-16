@@ -1,0 +1,365 @@
+{
+  "stats": {
+    "packets_seen": 45,
+    "browse_packets": 21,
+    "unauthorized_advertisement": 20,
+    "ipp_requests": 4,
+    "suspicious_ipp_callback": 4,
+    "discovery_flood": 15,
+    "allowlisted_advertisements": 1
+  },
+  "alert_count": 39,
+  "alerts": [
+    {
+      "timestamp": 1794846932.659354,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846932.665625,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.1",
+      "dst_port": 16322,
+      "detail": "IPP Get-Printer-Attributes (request-id=914) client=10.13.37.10 printer=10.13.37.1:16322"
+    },
+    {
+      "timestamp": 1794846932.66673,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 51310,
+      "detail": "IPP 0x0000 (request-id=914) client=10.13.37.10 printer=10.13.37.1:16322"
+    },
+    {
+      "timestamp": 1794846932.670154,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.10",
+      "dst_ip": "10.13.37.1",
+      "dst_port": 16322,
+      "detail": "IPP Get-Printer-Attributes (request-id=915) client=10.13.37.10 printer=10.13.37.1:16322"
+    },
+    {
+      "timestamp": 1794846932.670794,
+      "category": "suspicious_ipp_callback",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 51322,
+      "detail": "IPP 0x0000 (request-id=915) client=10.13.37.10 printer=10.13.37.1:16322"
+    },
+    {
+      "timestamp": 1794846932.875249,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846933.085827,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846933.297397,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846933.509287,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846933.72099,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "6 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846933.72099,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846933.933141,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "7 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846933.933141,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846934.15368,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "8 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846934.15368,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846934.365392,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "9 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846934.365392,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846934.577123,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "10 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846934.577123,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846934.789081,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "11 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846934.789081,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846935.017301,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "12 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846935.017301,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846935.238366,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "13 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846935.238366,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846935.449459,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "14 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846935.449459,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846935.661511,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "15 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846935.661511,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846935.87471,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "16 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846935.87471,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846936.085608,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "17 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846936.085608,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846936.297882,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "18 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846936.297882,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846936.517473,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "19 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846936.517473,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    },
+    {
+      "timestamp": 1794846936.73005,
+      "category": "discovery_flood",
+      "severity": "medium",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "20 browse announcements from 10.13.37.1 within 30s window (threshold 5)"
+    },
+    {
+      "timestamp": 1794846936.73005,
+      "category": "unauthorized_advertisement",
+      "severity": "high",
+      "src_ip": "10.13.37.1",
+      "dst_ip": "10.13.37.10",
+      "dst_port": 631,
+      "detail": "unauthenticated printer announcement from non-allowlisted source, advertised printer-uri=ipp://10.13.37.1:16322/printers/EVIL-PRINTER"
+    }
+  ]
+}
